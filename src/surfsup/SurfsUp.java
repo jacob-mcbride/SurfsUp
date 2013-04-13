@@ -14,6 +14,10 @@ public class SurfsUp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        start();
+    }
+    
+    public static void start(){
+        System.out.println("Surf's Up!");
     }
 }
