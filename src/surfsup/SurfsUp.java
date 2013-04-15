@@ -19,5 +19,6 @@ public class SurfsUp {
     
     public static void start(){
         System.out.println("Surf's Up!");
+        System.out.println("Ben rocks!");
     }
 }
