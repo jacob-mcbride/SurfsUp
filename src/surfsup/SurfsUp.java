@@ -28,11 +28,13 @@ public class SurfsUp {
 
 
 
+
+
          String[] args =  new String[0];
        //NOTE: you can change the string below to change the window title
        String appName = "Surfs Up!";
        //NOTE: you can change the numbers below (800, 600) to change the size of the window
-       Dimension appSize = new Dimension(800, 600);
+       Dimension appSize = new Dimension(400, 700);
        
        // Get image for background
        // Image background = ResourceTools.loadImageFromResource("resource/grass.jpg");    
