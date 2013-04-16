@@ -25,9 +25,9 @@ public class SurfsUp {
     
     public static void start(){
         System.out.println("Surf's Up!");
-<<<<<<< HEAD
-        System.out.println("Ben rocks!");
-=======
+
+
+
          String[] args =  new String[0];
        //NOTE: you can change the string below to change the window title
        String appName = "Surfs Up!";
@@ -50,6 +50,6 @@ public class SurfsUp {
        
        ApplicationStarter.run(args, appName, appSize, environment);  
        
->>>>>>> added environment
+
     }
 }

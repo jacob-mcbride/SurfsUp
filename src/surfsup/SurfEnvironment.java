@@ -20,32 +20,63 @@ public class SurfEnvironment extends Environment {
 
     @Override
     public void initializeEnvironment() {
-        throw new UnsupportedOperationException("Not supported yet.");
+   
     }
 
     @Override
     public void timerTaskHandler() {
-        throw new UnsupportedOperationException("Not supported yet.");
+       
     }
 
     @Override
-    public void keyPressedHandler(KeyEvent e) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public void keyPressedHandler(KeyEvent ke) {
+        if (ke.getKeyCode() == KeyEvent.VK_W){
+            System.out.println("W pressed!!!"); 
+            }
+        
+        if (ke.getKeyCode() == KeyEvent.VK_A){
+            System.out.println("A pressed!!!");
+        }
+        
+        if (ke.getKeyCode() == KeyEvent.VK_S){
+            System.out.println("S pressed!!!");
+        }
+        
+        if (ke.getKeyCode() == KeyEvent.VK_D){
+            System.out.println("D pressed!!!");
+            
+            if (ke.getKeyCode() == KeyEvent.VK_DOWN){
+            System.out.println("Down arrow pressed!!!");
+        }
+            
+            if (ke.getKeyCode() == KeyEvent.VK_LEFT){
+            System.out.println("Left pressed!!!");
+        }
+            
+            if (ke.getKeyCode() == KeyEvent.VK_RIGHT){
+            System.out.println("Right pressed!!!");
+        }
+            
+            if (ke.getKeyCode() == KeyEvent.VK_UP){
+            System.out.println("Up pressed!!!");
+        }
+        }
+        
     }
 
     @Override
     public void keyReleasedHandler(KeyEvent e) {
-        throw new UnsupportedOperationException("Not supported yet.");
+       
     }
 
     @Override
     public void environmentMouseClicked(MouseEvent e) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        
     }
 
     @Override
     public void paintEnvironment(Graphics graphics) {
-        throw new UnsupportedOperationException("Not supported yet.");
+       
     }
     
 }
