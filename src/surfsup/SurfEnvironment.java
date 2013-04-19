@@ -47,6 +47,7 @@ public class SurfEnvironment extends Environment {
         
         if (ke.getKeyCode() == KeyEvent.VK_D){
             System.out.println("D pressed!!!");
+        }
             
             if (ke.getKeyCode() == KeyEvent.VK_DOWN){
             System.out.println("Down arrow pressed!!!");
@@ -70,7 +71,7 @@ public class SurfEnvironment extends Environment {
 
        
 
-    }
+    
 
     @Override
     public void keyReleasedHandler(KeyEvent e) {
