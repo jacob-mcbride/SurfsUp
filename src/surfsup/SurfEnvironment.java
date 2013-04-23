@@ -87,6 +87,7 @@ public class SurfEnvironment extends Environment {
 
     @Override
     public void paintEnvironment(Graphics graphics) {
+       
 
     }
     
