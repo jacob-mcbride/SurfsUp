@@ -9,7 +9,7 @@ import environment.Environment;
 import image.ResourceTools;
 import java.awt.Dimension;
 import java.awt.Image;
-import audio.AudioPlayer;
+
 
 /**
  *
@@ -49,9 +49,10 @@ public class SurfsUp {
        // NOTE: you MUST create a new environment that using the "xxxxEnvironment" class from your application,
        // i.e. it will almost certainly NOT be called "SnakeBiteEnvironment", but rather
        // something like "SpaceEnvironment"
-       Environment environment = new SurfEnvironment();
+       Environment environment = new SurfEnvironment(background);
        
-       ApplicationStarter.run(args, appName, appSize, environment);  
+       ApplicationStarter.run(args, appName, appSize, environment);
+       
        
 
     }
