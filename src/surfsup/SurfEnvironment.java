@@ -70,13 +70,17 @@ public class SurfEnvironment extends Environment {
 
     @Override
     public void keyReleasedHandler(KeyEvent e) {
+        
     }
 
     @Override
     public void environmentMouseClicked(MouseEvent e) {
+        
     }
 
     @Override
     public void paintEnvironment(Graphics graphics) {
+        
+        
     }
 }
