@@ -30,6 +30,7 @@ public class SurfEnvironment extends Environment {
         System.out.println("Init");
 //               AudioPlayer.play(SurfEnvironment.class.getResourceAsStream("/resources/wave_sound.wav"), 1);
                AudioPlayer.play("/resources/wave_sound.wav");
+               
 
 =======
     @Override
