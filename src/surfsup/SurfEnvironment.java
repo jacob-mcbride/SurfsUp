@@ -99,6 +99,7 @@ public class SurfEnvironment extends Environment implements ConfigurationHandler
             System.out.println("WIPE OUT!!!!!!!!!!!!");
         }
         System.out.println("Config received");
+       
     }
 
     public void displayMenu() {

@@ -95,6 +95,11 @@ public class GameMenu extends javax.swing.JPanel {
         jButton3.setText("PipeLine");
 
         jButton4.setText("WipeOut");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -289,10 +294,19 @@ public class GameMenu extends javax.swing.JPanel {
             config.setSong("Blue Moon");
             config.setLevel(Configuration.GameLevel.HONOLULU);
             
+            
             ch.handleConfig(config);
         }
+      
+   
+     
 
     }//GEN-LAST:event_btnCloseActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+
+    }//GEN-LAST:event_jButton4ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnClose;
     private javax.swing.JButton jButton2;
